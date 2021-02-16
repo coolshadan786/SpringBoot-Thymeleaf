@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Footer template</title>
+</head>
+<body>
+	
+	<footer id="fragmentTag" th:fragment="footer1(title,subtitle)">
+	
+		<div class="container" >
+		
+			<h1 th:text="${title}"></h1>
+			<h1 th:text="${subtitle}"></h1>
+			<h1>About LearnCode With Umair</h1>
+			<h1>Easy to read understand concept by my</h1>
+			<h1>please give feedback to be if u have happy with the concept</h1>
+		
+		
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate neque voluptatum culpa vitae sapiente corporis perspiciatis repellat odit inventore iure atque maxime aliquid error fugit cum reprehenderit laborum praesentium aut!</p>
+			
+		</div>
+	
+	</footer>
+	
+</body>
+</html>

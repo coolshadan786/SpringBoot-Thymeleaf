@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Services page</title>
+</head>
+<body>
+	<h1>Services provided by me</h1>
+	
+	<!-- Going to Fragmented Footer template -->
+	
+		<!-- Replace Footer template -->
+			<footer id="hostTag" th:replace="footer::footer1(${title},${subtitle})"> 
+	
+	
+			</footer>
+			
+			
+		<!-- Insert Footer template -->
+			<footer id="hostTag" th:insert="footer::footer1(${title},${subtitle})"> 
+	
+	
+			</footer>
+			
+			
+		<!-- Include Footer template -->
+			<footer id="hostTag" th:include="footer::footer1(${title},${subtitle})"> 
+	
+	
+			</footer>
+</body>
+</html>
